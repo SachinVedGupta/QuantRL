@@ -405,3 +405,7 @@ if __name__ == '__main__':
 
   # save portfolio value for each episode
   np.save(f'{rewards_folder}/{args.mode}.npy', portfolio_value)
+
+
+
+  # python main_code.py -m train && python plot_rewards.py -m train
